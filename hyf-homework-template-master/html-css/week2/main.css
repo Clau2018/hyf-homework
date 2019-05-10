@@ -1,0 +1,228 @@
+html,
+body {
+    font-family:'Anton', sans-serif;
+    font-family: 'Playfair Display', serif;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+    .header {
+           background-color: rgb(217, 217, 217);
+           display: block;
+           margin: 0;
+           padding: 0;
+           border: 0;
+           font-size: 100%;
+           font: inherit;
+           vertical-align: baseline;          
+}
+   .subtitle {
+           color: gray;
+}
+   header h3{
+           font-size: 1,5rem;
+           padding-bottom: 4rem;
+
+}
+   .nav-container {
+           width: 70%;
+           margin:0 auto;
+}
+nav ul {
+          display: block;
+}
+nav ul li {
+          margin: 1rem;
+          padding: 1rem;
+          text-align: center;
+}
+nav ul li:hover {
+         background-color: #A4A4A4;
+         border-radius: 999px;
+}
+ul {
+        list-style-type: none;
+}
+
+h1 {
+        font-size: 2,5rem;
+        padding: 3rem 0 1rem 0;
+        font-weight: bold;
+        text-transform: uppercase;
+        color:black;
+        font-family:'Anton', sans-serif;
+        font-family: 'Playfair Display', serif; 
+}
+h3 {
+        color: gray;
+        font-family:'Anton', sans-serif;
+        font-family: 'Playfair Display', serif;
+}
+.header h3 {
+        font-size: 1,5rem;
+        padding-bottom: 4rem;
+}
+
+nav ul {
+        display: flex;
+}
+nav ul li {
+       padding: 2rem, 2rem, 2rem, 0;
+       margin-right: 1rem;
+}
+nav a {
+      font-size: 1rem;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+}
+.image {
+       display: block;
+       margin: 0;
+       padding: 0;
+       border: 0;
+       font: inherit;
+       font-family:'Anton', sans-serif;
+       font-family: 'Playfair Display', serif;
+       margin-block-start: 1em;
+       margin-block-end: 1em;
+       margin-inline-start: 40px;
+       margin-inline-end: 40px;
+}
+
+#image-office {
+       width: 100%;
+       height: 50vh;
+}
+.left-column {
+       padding: 0;
+       margin: 1.5rem 1rem;
+       width: 35%;
+}
+.headline4 {
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-bottom: 1rem;
+}
+p {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+}
+.right-column {
+     width: 50%;
+     padding: 0;
+     margin: 1.5rem 1rem;
+}
+.headline2 {
+     font-size: 1.5rem;
+     text-transform: uppercase;
+     font-weight: bold;
+}
+.subtitle-text {
+  color: gray;
+  margin: 1rem 0 0 0;
+}
+.logos img {
+  width: 80px;
+  margin: 2rem 1.5rem 1.5rem 1.5rem;
+}
+.headline2, .headline4 {
+  text-align: center;
+}
+main ul li {
+  margin: 0 auto;
+}
+.logo {
+       display: grid;
+       grid-template-columns: auto auto auto auto;
+}
+/* .icons {
+  width: 5em;
+  height: 5em;
+  margin: 10px;*/
+
+  .footer{
+    display: flex;
+    background:#6736ce;
+    color: #FAFAFA;
+    justify-content: space-between;
+}
+.footer-col{
+    justify-self: center;
+    font-weight: 300;
+    margin-right: 20px;
+}
+.footer-col a{
+   border-bottom: 1px solid rgba(0,0,0,0.1);
+   line-height:30px;
+   transition: 0.3s;
+}
+.footer-col a:hover,
+.footer-col a:focus
+{color: black;}
+.footer-col h2{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+/* for embeded map
+ https://www.embedgooglemap.net/ */
+.mapouter {
+    position: relative;
+    text-align: right;
+ 
+}
+
+.gmap_canvas {
+    position: absolute;
+    overflow: hidden;
+    background: none !important;
+    
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.footer-container {
+  color:white
+}
+/* ----------------------- */
+/* MEDIA STYLES */
+/* for phone screen */
+@media (max-width: 600px){
+  
+    .container{
+        flex-direction:column;
+        padding-left: 0%;
+    }
+    .container a{
+        padding-left: 10%;
+    }
+    .footer{
+
+        flex-direction:column;
+    }
+    .item{
+        width: 2em;
+        height: 2em;
+        margin: 5px;
+    }
+   
+
+
+  }
