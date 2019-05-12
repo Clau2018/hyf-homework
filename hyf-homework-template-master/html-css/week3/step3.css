@@ -1,0 +1,25 @@
+
+.grid-container {
+    margin: 25px 0;
+    display: grid;
+    grid-auto-columns: auto auto auto auto;
+}
+
+.grid-item {
+width: 150px;
+}
+
+.placeholder {
+    width: 150px;
+    height: 150px;
+    background-color: gray; 
+}
+
+.grid-item .form-box {
+    width: 150px;
+}
+
+
+.progress-bar {
+    width: 75%;
+}

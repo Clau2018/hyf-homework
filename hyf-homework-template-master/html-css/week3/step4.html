@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms 4</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./step4.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+</head>
+<body class="padd">
+   <header class="row">
+       <div class="logo background-gray border-gray ">
+           <p>Logo</p>
+       </div>
+       <div class="navbar background-gray border-gray">
+           <p>Navigation</p>
+       </div>
+    </header>
+   <main>
+       <h1>Sign up to yourcustomtailor.com</h1>
+       <br>
+       
+       <h2>Step 4/4 - Payment</h2>
+       <br>
+       <p class="strong">Progress</p>
+       <div class="progress-bar-box border-gray"></div>
+       <div class="progress-bar background-gray border-gray"></div>
+       <p>Please fill in your payment data</p>
+       <form action="./index.html"  method="GET">
+        <div class="row strong padd">
+                <div class="column">
+                        <div class="form-box">
+                                <label for="name_of_card">Name of card</label>
+                                <input type="text" id="name_of_card" class="border-gray">
+                        </div>
+                        <div class="form-box">
+                                <label for="credit_card_number">Credit card number</label>
+                                <input type="text" id="credit_card_number" class="border-gray">
+                        </div>
+                        <div class="form-box">
+                                <label for="expiry_month">Expiry month</label>
+                                <input type="text" id="expiry_month" class="border-gray">
+                        </div>
+                        <div class="form-box">
+                                <label for="ccv">CCV</label>
+                                <input type="text" id="ccv" class="border-gray">
+                        </div>
+                </div>
+
+                <div class="column">
+                        <div class="form-box ">
+                                <label for="card_type">Card type</label>
+                                <input type="text" id="card_type" class="border-gray">
+                        </div>
+                        <div class="form-box">
+                                <label for="first_name">First name</label>
+                                <input type="text" id="first_name" class="border-gray">
+                        </div>
+                        <div class="form-box">
+                                <label for="expiry_year">Expiry year</label>
+                                <input type="text" id="expiry_year" class="border-gray">
+                        </div>        
+                </div>
+        </div>
+           <div class="end strong">
+           <button type="submit" class="background-gray border-gray flex strong" >Next step</button>
+           </div>
+       </form>
+
+   </main>
+   <footer class="flex">
+
+
+   </footer>
+
+</body>
+</html>

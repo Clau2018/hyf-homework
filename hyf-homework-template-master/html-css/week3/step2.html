@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms 2</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./step2.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+</head>
+<body class="padd">
+   <header class="row">
+       <div class="logo background-gray border-gray ">
+           <p>Logo</p>
+       </div>
+       <div class="navbar background-gray border-gray">
+           <p>Navigation</p>
+       </div>
+    </header>
+   <main>
+       <h1>Sign up to yourcustomtailor.com</h1>
+       <br>
+       <h2>Step 2/4 - how can we reach you?</h2>
+       <br>
+       <p class="strong">Progress</p>
+       <div class="progress-bar-box border-gray"></div>
+       <div class="progress-bar background-gray border-gray"></div>
+       <p>We will probably need to stay in touch somehow. Let is know who can reach you? </p>
+       <form action="./step3.html"  method="GET">
+        <div class="row padd">
+            <div class="column strong">
+                <div class="form-box">
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" class="border-gray">
+                </div>
+                <div class="form-box">
+                    <label for="password">Password*</label>
+                    <input type="password" id="password" class="border-gray">
+                </div>
+                <div class="form-box ">
+                    <label for="password_2">Re-enter Password*</label>
+                    <input type="password" id="password_2" class="border-gray">
+                </div>
+            </div>
+            <div class="column strong">
+                <div class="form-box">
+                    <label for="phone">Phone*</label>
+                    <input type="phone" id="phone" class="border-gray">
+                </div>    
+            </div>
+
+        </div>
+
+
+            <p>I want to sign up for the newsletter</p>
+            <div class="row padd">
+                    <div class="form-box strong">
+
+                            <label for="weekly_news">Weekly news</label>
+                            <input type="radio" id="weekly_news" class="border-gray">
+                    </div>
+                    <div class="form-box strong">
+                            <label for="monthly_news">Monthly news</label>
+                            <input type="radio" id="monthly_news" class="border-gray">
+                    </div>
+                    <div class="form-box strong">
+                            <label for="do_not_send">Don't send me news</label>
+                            <input type="radio" id="do_not_send" class="border-gray">
+                    </div>
+            </div>
+
+            <div class="end">
+            <button type="submit" class="background-gray border-gray flex strong" >Next step</button>
+            </div>
+       </form>
+
+   </main>
+   <footer class="flex">
+ 
+   </footer>
+
+</body>
+</html>
